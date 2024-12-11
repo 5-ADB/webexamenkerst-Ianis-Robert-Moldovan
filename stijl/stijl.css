@@ -74,6 +74,30 @@ main section1 .tekst-titel {
 
 /* end section1 */
 /* section2 */
-main section2 .images {
+
+main section .images {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr 200px;
+    grid-template-rows: 1fr; 
+    justify-content: center; 
+    gap: 20px; 
     padding-top: 50px;
+}
+
+main section .images .picture{
+    grid-column: 2;
+}
+
+main section .images .picture{
+    grid-column: 3;
+}
+
+main section .images .picture{    
+    grid-column: 4; 
+}
+
+main section .images .picture img {
+    height: 500px;
+    width: 200px;
+    object-fit: cover; 
 }
