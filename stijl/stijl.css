@@ -1,0 +1,68 @@
+/* algemene opmaak css */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Montserrat", serif;
+}
+
+/* Header */
+/* navbar */
+header {
+    background-image: url(../images/wave.svg);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav div .logo {
+    height: 75px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+header nav .menu-items {
+    display: flex;
+    list-style: none;
+}
+
+header nav .menu-items .menu-item a {
+    text-decoration: none;
+    color: black;
+    margin: 5px 10px;
+    font-weight: 700;
+}
+/* einde navbar */
+/* einde header */
+
+/* main */
+/* section1 */
+main section1 .tekst-container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    height: auto;
+    text-align: left;
+}
+
+main section1 .tekst {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+main section1 .zeezicht-foto {
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
